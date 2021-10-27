@@ -900,8 +900,8 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border: 3px solid var(--accent-color);
 }
 
-.checkbox-text span:hover,
-.checkbox-text span:focus {
+.modal-checkbox:hover+.checkbox-text span,
+.modal-checkbox:focus+.checkbox-text span {
     border: 3px solid var(--accent-color);
 }
 
